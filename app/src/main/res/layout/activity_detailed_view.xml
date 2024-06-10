@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5682C3"
+    tools:context=".detailedView">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="151dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="651dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/weather_app_text" />
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="64dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="639dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="16dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_button"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/detail_textView"
+        android:layout_width="394dp"
+        android:layout_height="285dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="281dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/average_textView"
+        android:layout_width="388dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="474dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="202dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
